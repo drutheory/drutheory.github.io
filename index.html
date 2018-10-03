@@ -1,32 +1,86 @@
-<!doctype html>
-<html>
-  <head>
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Playfair+Display">
-    <title>dru</title>
-      <style>
-        body {
-          font-family: 'Playfair Display' , serif;
-          }
-          h1 {
-            color: blue;
-          }
-          h2 {
-            text-decoration: underline;
-          }
-          p {
-            color: indigo;
-          }
-      </style>  
-  </head> 
-  <body>
-    <center><h1>dru theory</h1>
-    <h2>Open Source</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>dru2</title>
+<meta charset="utf-8>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+nav {
+    float: left;
+    width: 30%;
+    background: #ccc;
+    padding: 20px;
+}
+nav ul {
+    list-style type: none;
+    padding: 0;
+}
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: f1f1f1;
+}
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+@media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+}
+</style>
+</head>
+<body>
+<h2>CSS Layout Float</h2>
+<p>sample text sample text sample text</p>
+<p>sample text 2 sample text 2</p>
 
-    <p><strong>always learning</strong></p>
-    <p>currently learning html</p>
-    <p>A computer program is a collection of instructions[1] that performs a specific task when executed by a computer. A computer requires programs to function. 
-A computer program is usually written by a computer programmer in a programming language. From the program in its human-readable form of source code, a compiler can derive machine code—a form consisting of instructions that the computer can directly execute. Alternatively, a computer program may be executed with the aid of an interpreter. 
-A collection of computer programs, libraries, and related data are referred to as software. Computer programs may be categorized along functional lines, such as application software and system software. The underlying method used for some calculation or manipulation is known as an algorithm. </p></center>
-  </body>  
+<header>
+    <h2>Programming</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Python</a></li>
+      <li><a href="#">html</a></li>
+      <li><a href="#">Javascript</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Python</h1> 
+    <p>Python is a programming language with a built-in compiler</>
+    <p>Python is very versatile</p>
+  </article>
+</section>
+
+<footer>
+    <p>Footer</p>
+</footer>
+
+</body>
 </html>
